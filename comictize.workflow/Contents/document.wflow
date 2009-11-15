@@ -63,7 +63,7 @@
 				<key>ActionParameters</key>
 				<dict>
 					<key>defaultLocation</key>
-					<string>~/Desktop</string>
+					<string>~/Pictures</string>
 					<key>granularity</key>
 					<integer>1</integer>
 					<key>multipleSelection</key>
@@ -167,7 +167,7 @@
 				<key>isViewVisible</key>
 				<false/>
 				<key>location</key>
-				<string>402.000000:1373.000000</string>
+				<string>637.500000:914.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Ask for Finder Items.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
@@ -356,7 +356,7 @@
 				<key>isViewVisible</key>
 				<false/>
 				<key>location</key>
-				<string>402.000000:1289.000000</string>
+				<string>637.500000:830.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Set Value of Variable.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
@@ -456,7 +456,7 @@
 				<key>isViewVisible</key>
 				<false/>
 				<key>location</key>
-				<string>402.000000:1247.000000</string>
+				<string>637.500000:788.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Get Folder Contents.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
@@ -535,8 +535,6 @@
 				</array>
 				<key>OutputUUID</key>
 				<string>C8447044-089D-4E7D-87C6-7993FD960791</string>
-				<key>StartAction</key>
-				<false/>
 				<key>UUID</key>
 				<string>C9C4D50D-A659-4951-AE10-243AAD56C78B</string>
 				<key>UnlocalizedApplications</key>
@@ -575,7 +573,7 @@
 				<key>isViewVisible</key>
 				<false/>
 				<key>location</key>
-				<string>402.000000:1205.000000</string>
+				<string>637.500000:746.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Sort Finder Items.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
@@ -671,8 +669,6 @@
 				</array>
 				<key>OutputUUID</key>
 				<string>D176147A-0017-47CD-8E5E-47DC385D709C</string>
-				<key>StartAction</key>
-				<false/>
 				<key>UUID</key>
 				<string>08C55A0C-BF19-42A5-B179-9B74BA635C71</string>
 				<key>UnlocalizedApplications</key>
@@ -763,7 +759,7 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>402.000000:1163.000000</string>
+				<string>637.500000:704.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Crop Images.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
@@ -850,8 +846,6 @@
 				</array>
 				<key>OutputUUID</key>
 				<string>401D49AE-46AB-4DF6-B355-1AEEF7548992</string>
-				<key>StartAction</key>
-				<false/>
 				<key>UUID</key>
 				<string>63F3A125-E685-4B61-B2B0-8CF554D543A7</string>
 				<key>UnlocalizedApplications</key>
@@ -916,7 +910,7 @@
 				<key>isViewVisible</key>
 				<false/>
 				<key>location</key>
-				<string>402.000000:950.000000</string>
+				<string>637.500000:491.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Scale Images.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
@@ -942,6 +936,8 @@
 				<key>AMParameterProperties</key>
 				<dict>
 					<key>filterIdentifier</key>
+					<dict/>
+					<key>filterParameters</key>
 					<dict/>
 				</dict>
 				<key>AMProvides</key>
@@ -994,8 +990,6 @@
 				</array>
 				<key>OutputUUID</key>
 				<string>224315B0-9EC4-48EB-8EF0-0EC7F9025F8D</string>
-				<key>StartAction</key>
-				<false/>
 				<key>UUID</key>
 				<string>54EAAB91-AB4F-46CE-9845-2D5E86A08215</string>
 				<key>arguments</key>
@@ -1015,14 +1009,14 @@
 					</dict>
 				</dict>
 				<key>isViewVisible</key>
-				<true/>
+				<false/>
 				<key>location</key>
-				<string>402.000000:908.000000</string>
+				<string>637.500000:449.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Apply Quartz Composition Filter to Image Files.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
 			<key>isViewVisible</key>
-			<true/>
+			<false/>
 		</dict>
 		<dict>
 			<key>action</key>
@@ -1043,6 +1037,8 @@
 				<key>AMParameterProperties</key>
 				<dict>
 					<key>filterIdentifier</key>
+					<dict/>
+					<key>filterParameters</key>
 					<dict/>
 				</dict>
 				<key>AMProvides</key>
@@ -1120,14 +1116,14 @@
 					</dict>
 				</dict>
 				<key>isViewVisible</key>
-				<true/>
+				<false/>
 				<key>location</key>
-				<string>402.000000:597.000000</string>
+				<string>637.500000:407.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Apply Quartz Composition Filter to Image Files.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
 			<key>isViewVisible</key>
-			<true/>
+			<false/>
 		</dict>
 		<dict>
 			<key>action</key>
@@ -1226,7 +1222,7 @@
 				<key>isViewVisible</key>
 				<false/>
 				<key>location</key>
-				<string>402.000000:286.000000</string>
+				<string>637.500000:365.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/New PDF from Images.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
@@ -1336,7 +1332,7 @@
 				<key>isViewVisible</key>
 				<false/>
 				<key>location</key>
-				<string>402.000000:244.000000</string>
+				<string>637.500000:323.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Set Value of Variable.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
@@ -1375,11 +1371,9 @@
 				<dict>
 					<key>Container</key>
 					<string>List</string>
-					<key>Optional</key>
-					<false/>
 					<key>Types</key>
 					<array>
-						<string>com.apple.cocoa.path</string>
+						<string>*</string>
 					</array>
 				</dict>
 				<key>AMRequiredResources</key>
@@ -1448,7 +1442,7 @@
 				<key>isViewVisible</key>
 				<false/>
 				<key>location</key>
-				<string>402.000000:202.000000</string>
+				<string>637.500000:281.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Get Value of Variable.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
@@ -1568,7 +1562,7 @@
 				<key>isViewVisible</key>
 				<false/>
 				<key>location</key>
-				<string>402.000000:160.000000</string>
+				<string>637.500000:239.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Move Finder Items.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
@@ -1607,11 +1601,9 @@
 				<dict>
 					<key>Container</key>
 					<string>List</string>
-					<key>Optional</key>
-					<false/>
 					<key>Types</key>
 					<array>
-						<string>com.apple.cocoa.path</string>
+						<string>*</string>
 					</array>
 				</dict>
 				<key>AMRequiredResources</key>
@@ -1680,7 +1672,7 @@
 				<key>isViewVisible</key>
 				<false/>
 				<key>location</key>
-				<string>402.000000:118.000000</string>
+				<string>637.500000:197.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Get Value of Variable.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
@@ -1753,103 +1745,103 @@
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>0B06C3AE-0586-4858-A0BF-6C4A24C08069</key>
+		<key>0E7D0A42-3716-40D5-B756-68DC07670ECE</key>
 		<dict>
 			<key>from</key>
-			<string>E70E04B1-2FFC-4072-9562-0060E8CAE52F - E70E04B1-2FFC-4072-9562-0060E8CAE52F</string>
+			<string>C9C4D50D-A659-4951-AE10-243AAD56C78B - C9C4D50D-A659-4951-AE10-243AAD56C78B</string>
 			<key>to</key>
-			<string>96F6A916-BDA5-454D-B4FD-3232DF06115B - 96F6A916-BDA5-454D-B4FD-3232DF06115B</string>
-		</dict>
-		<key>1DAB1DD5-80D3-4662-89A3-7BD8A00A43CC</key>
-		<dict>
-			<key>from</key>
 			<string>08C55A0C-BF19-42A5-B179-9B74BA635C71 - 08C55A0C-BF19-42A5-B179-9B74BA635C71</string>
-			<key>to</key>
-			<string>63F3A125-E685-4B61-B2B0-8CF554D543A7 - 63F3A125-E685-4B61-B2B0-8CF554D543A7</string>
 		</dict>
-		<key>3C4EAE8A-709E-48DB-8551-1ED95F297B68</key>
-		<dict>
-			<key>from</key>
-			<string>9BAFDB52-6064-4222-A071-E292A3A95316 - 9BAFDB52-6064-4222-A071-E292A3A95316</string>
-			<key>to</key>
-			<string>651AAAF1-7E17-431A-A1FD-E6A0E0A8046A - 651AAAF1-7E17-431A-A1FD-E6A0E0A8046A</string>
-		</dict>
-		<key>51BD3316-E54A-4D46-9B7A-E58D86F0DC45</key>
-		<dict>
-			<key>from</key>
-			<string>63F3A125-E685-4B61-B2B0-8CF554D543A7 - 63F3A125-E685-4B61-B2B0-8CF554D543A7</string>
-			<key>to</key>
-			<string>54EAAB91-AB4F-46CE-9845-2D5E86A08215 - 54EAAB91-AB4F-46CE-9845-2D5E86A08215</string>
-		</dict>
-		<key>8859B27A-D0FE-4197-B8B2-9681D26A7434</key>
+		<key>1D0AB002-226E-4923-869B-D65C59FCB428</key>
 		<dict>
 			<key>from</key>
 			<string>651AAAF1-7E17-431A-A1FD-E6A0E0A8046A - 651AAAF1-7E17-431A-A1FD-E6A0E0A8046A</string>
 			<key>to</key>
 			<string>C9C4D50D-A659-4951-AE10-243AAD56C78B - C9C4D50D-A659-4951-AE10-243AAD56C78B</string>
 		</dict>
-		<key>9A80F16D-99F4-42C7-8561-E4008D121C16</key>
-		<dict>
-			<key>from</key>
-			<string>6253508B-9415-4D7D-9E23-902C49E8F726 - 6253508B-9415-4D7D-9E23-902C49E8F726</string>
-			<key>to</key>
-			<string>E70E04B1-2FFC-4072-9562-0060E8CAE52F - E70E04B1-2FFC-4072-9562-0060E8CAE52F</string>
-		</dict>
-		<key>A366F481-8728-4E50-9585-DA0C768A934D</key>
-		<dict>
-			<key>from</key>
-			<string>57F2DA0E-A7F3-478B-A488-912862BA1D53 - 57F2DA0E-A7F3-478B-A488-912862BA1D53</string>
-			<key>to</key>
-			<string>9BAFDB52-6064-4222-A071-E292A3A95316 - 9BAFDB52-6064-4222-A071-E292A3A95316</string>
-		</dict>
-		<key>B9ECD1A2-F1EE-4BB8-BDE7-4BCBFF4F1D32</key>
-		<dict>
-			<key>from</key>
-			<string>71A37C6D-EBC7-46E0-89AE-062F5F270678 - 71A37C6D-EBC7-46E0-89AE-062F5F270678</string>
-			<key>to</key>
-			<string>BDE588D9-3B13-432B-A739-505847C60641 - BDE588D9-3B13-432B-A739-505847C60641</string>
-		</dict>
-		<key>BB3D0C47-CEDB-4D27-9907-5286A0740C25</key>
+		<key>1FA96BF3-B646-4594-8F5E-BADCA691A675</key>
 		<dict>
 			<key>from</key>
 			<string>419A843F-81C9-49AC-B3E9-76B32F2727A4 - 419A843F-81C9-49AC-B3E9-76B32F2727A4</string>
 			<key>to</key>
 			<string>57F2DA0E-A7F3-478B-A488-912862BA1D53 - 57F2DA0E-A7F3-478B-A488-912862BA1D53</string>
 		</dict>
-		<key>BC515546-3F76-4214-8421-F2EF5817A005</key>
+		<key>25D41A18-849D-4662-B4F1-19DDCE61D7EE</key>
 		<dict>
 			<key>from</key>
-			<string>54EAAB91-AB4F-46CE-9845-2D5E86A08215 - 54EAAB91-AB4F-46CE-9845-2D5E86A08215</string>
+			<string>BDE588D9-3B13-432B-A739-505847C60641 - BDE588D9-3B13-432B-A739-505847C60641</string>
 			<key>to</key>
+			<string>DEF7BCD9-69E8-431B-8B8C-244C94A3E50B - DEF7BCD9-69E8-431B-8B8C-244C94A3E50B</string>
+		</dict>
+		<key>37B55C2A-D100-4BE1-8B97-107383AE7F34</key>
+		<dict>
+			<key>from</key>
 			<string>6253508B-9415-4D7D-9E23-902C49E8F726 - 6253508B-9415-4D7D-9E23-902C49E8F726</string>
+			<key>to</key>
+			<string>E70E04B1-2FFC-4072-9562-0060E8CAE52F - E70E04B1-2FFC-4072-9562-0060E8CAE52F</string>
 		</dict>
-		<key>CC9627EB-8B6D-4F47-B702-2186521AFAC3</key>
+		<key>3BDF0F9D-01C5-439E-9F6D-176693FD918C</key>
 		<dict>
 			<key>from</key>
-			<string>96F6A916-BDA5-454D-B4FD-3232DF06115B - 96F6A916-BDA5-454D-B4FD-3232DF06115B</string>
-			<key>to</key>
 			<string>71A37C6D-EBC7-46E0-89AE-062F5F270678 - 71A37C6D-EBC7-46E0-89AE-062F5F270678</string>
-		</dict>
-		<key>D42E80B9-B4A1-401D-8699-7D5EE7D97729</key>
-		<dict>
-			<key>from</key>
-			<string>C9C4D50D-A659-4951-AE10-243AAD56C78B - C9C4D50D-A659-4951-AE10-243AAD56C78B</string>
 			<key>to</key>
-			<string>08C55A0C-BF19-42A5-B179-9B74BA635C71 - 08C55A0C-BF19-42A5-B179-9B74BA635C71</string>
+			<string>BDE588D9-3B13-432B-A739-505847C60641 - BDE588D9-3B13-432B-A739-505847C60641</string>
 		</dict>
-		<key>EC927A3A-E635-47E5-A1F0-67638FAD1C06</key>
+		<key>60EFB8F6-34F7-44AC-904D-10EB04D8B7BD</key>
 		<dict>
 			<key>from</key>
 			<string>DEF7BCD9-69E8-431B-8B8C-244C94A3E50B - DEF7BCD9-69E8-431B-8B8C-244C94A3E50B</string>
 			<key>to</key>
 			<string>10D2BE39-599A-4DBE-B613-F47C8413FD02 - 10D2BE39-599A-4DBE-B613-F47C8413FD02</string>
 		</dict>
-		<key>FE7F4255-7F0A-4334-96BB-0A598A4D160E</key>
+		<key>7E53C19B-102D-4951-AE32-62A68761D0DF</key>
 		<dict>
 			<key>from</key>
-			<string>BDE588D9-3B13-432B-A739-505847C60641 - BDE588D9-3B13-432B-A739-505847C60641</string>
+			<string>9BAFDB52-6064-4222-A071-E292A3A95316 - 9BAFDB52-6064-4222-A071-E292A3A95316</string>
 			<key>to</key>
-			<string>DEF7BCD9-69E8-431B-8B8C-244C94A3E50B - DEF7BCD9-69E8-431B-8B8C-244C94A3E50B</string>
+			<string>651AAAF1-7E17-431A-A1FD-E6A0E0A8046A - 651AAAF1-7E17-431A-A1FD-E6A0E0A8046A</string>
+		</dict>
+		<key>87EDA652-8D03-445F-8049-BAC255B68811</key>
+		<dict>
+			<key>from</key>
+			<string>96F6A916-BDA5-454D-B4FD-3232DF06115B - 96F6A916-BDA5-454D-B4FD-3232DF06115B</string>
+			<key>to</key>
+			<string>71A37C6D-EBC7-46E0-89AE-062F5F270678 - 71A37C6D-EBC7-46E0-89AE-062F5F270678</string>
+		</dict>
+		<key>A6512460-8CD7-470A-A008-42F05DF25216</key>
+		<dict>
+			<key>from</key>
+			<string>E70E04B1-2FFC-4072-9562-0060E8CAE52F - E70E04B1-2FFC-4072-9562-0060E8CAE52F</string>
+			<key>to</key>
+			<string>96F6A916-BDA5-454D-B4FD-3232DF06115B - 96F6A916-BDA5-454D-B4FD-3232DF06115B</string>
+		</dict>
+		<key>AAE3BDCC-75E1-4CA8-828F-BCDBC22BAD4A</key>
+		<dict>
+			<key>from</key>
+			<string>63F3A125-E685-4B61-B2B0-8CF554D543A7 - 63F3A125-E685-4B61-B2B0-8CF554D543A7</string>
+			<key>to</key>
+			<string>54EAAB91-AB4F-46CE-9845-2D5E86A08215 - 54EAAB91-AB4F-46CE-9845-2D5E86A08215</string>
+		</dict>
+		<key>B8DBD033-EF66-45A6-AEF6-B4E2BFE050C7</key>
+		<dict>
+			<key>from</key>
+			<string>08C55A0C-BF19-42A5-B179-9B74BA635C71 - 08C55A0C-BF19-42A5-B179-9B74BA635C71</string>
+			<key>to</key>
+			<string>63F3A125-E685-4B61-B2B0-8CF554D543A7 - 63F3A125-E685-4B61-B2B0-8CF554D543A7</string>
+		</dict>
+		<key>C18D5D57-F007-483C-ADB8-10527434C329</key>
+		<dict>
+			<key>from</key>
+			<string>57F2DA0E-A7F3-478B-A488-912862BA1D53 - 57F2DA0E-A7F3-478B-A488-912862BA1D53</string>
+			<key>to</key>
+			<string>9BAFDB52-6064-4222-A071-E292A3A95316 - 9BAFDB52-6064-4222-A071-E292A3A95316</string>
+		</dict>
+		<key>E6DD695D-A537-4CCC-885E-77B0A15F3C75</key>
+		<dict>
+			<key>from</key>
+			<string>54EAAB91-AB4F-46CE-9845-2D5E86A08215 - 54EAAB91-AB4F-46CE-9845-2D5E86A08215</string>
+			<key>to</key>
+			<string>6253508B-9415-4D7D-9E23-902C49E8F726 - 6253508B-9415-4D7D-9E23-902C49E8F726</string>
 		</dict>
 	</dict>
 	<key>state</key>
@@ -1864,8 +1856,8 @@
 				<real>0.0</real>
 				<key>subviewState</key>
 				<array>
-					<string>0.000000, 0.000000, 381.000000, 563.000000, NO</string>
-					<string>0.000000, 564.000000, 381.000000, 239.000000, NO</string>
+					<string>0.000000, 0.000000, 381.000000, 638.000000, NO</string>
+					<string>0.000000, 639.000000, 381.000000, 239.000000, NO</string>
 				</array>
 			</dict>
 			<key>actionsMinorSplitViewState</key>
@@ -1874,8 +1866,8 @@
 				<real>0.0</real>
 				<key>subviewState</key>
 				<array>
-					<string>0.000000, 0.000000, 163.000000, 563.000000, NO</string>
-					<string>164.000000, 0.000000, 217.000000, 563.000000, NO</string>
+					<string>0.000000, 0.000000, 163.000000, 638.000000, NO</string>
+					<string>164.000000, 0.000000, 217.000000, 638.000000, NO</string>
 				</array>
 			</dict>
 			<key>variablesMajorSplitViewState</key>
@@ -1905,8 +1897,8 @@
 			<real>381</real>
 			<key>subviewState</key>
 			<array>
-				<string>0.000000, 0.000000, 381.000000, 848.000000, NO</string>
-				<string>382.000000, 0.000000, 819.000000, 848.000000, NO</string>
+				<string>0.000000, 0.000000, 0.000000, 923.000000, YES</string>
+				<string>0.000000, 0.000000, 1275.000000, 923.000000, NO</string>
 			</array>
 		</dict>
 		<key>minorSplitViewState</key>
@@ -1915,14 +1907,14 @@
 			<real>150</real>
 			<key>subviewState</key>
 			<array>
-				<string>0.000000, 0.000000, 819.000000, 679.000000, NO</string>
-				<string>0.000000, 689.000000, 819.000000, 140.000000, NO</string>
+				<string>0.000000, 0.000000, 1275.000000, 904.000000, NO</string>
+				<string>0.000000, 689.000000, 819.000000, 140.000000, YES</string>
 			</array>
 		</dict>
 		<key>windowFrame</key>
-		<string>{{29, 232}, {1200, 925}}</string>
+		<string>{{81, 157}, {1274, 1000}}</string>
 		<key>workflowViewScrollPosition</key>
-		<string>{{0, 0}, {804, 679}}</string>
+		<string>{{0, 0}, {1275, 904}}</string>
 	</dict>
 	<key>variables</key>
 	<array>
