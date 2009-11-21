@@ -167,7 +167,7 @@
 				<key>isViewVisible</key>
 				<false/>
 				<key>location</key>
-				<string>637.500000:914.000000</string>
+				<string>438.000000:1104.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Ask for Finder Items.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
@@ -356,7 +356,7 @@
 				<key>isViewVisible</key>
 				<false/>
 				<key>location</key>
-				<string>637.500000:830.000000</string>
+				<string>438.000000:1020.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Set Value of Variable.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
@@ -456,7 +456,7 @@
 				<key>isViewVisible</key>
 				<false/>
 				<key>location</key>
-				<string>637.500000:788.000000</string>
+				<string>438.000000:978.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Get Folder Contents.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
@@ -573,7 +573,7 @@
 				<key>isViewVisible</key>
 				<false/>
 				<key>location</key>
-				<string>637.500000:746.000000</string>
+				<string>438.000000:936.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Sort Finder Items.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
@@ -759,7 +759,7 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>637.500000:704.000000</string>
+				<string>438.000000:894.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Crop Images.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
@@ -910,7 +910,7 @@
 				<key>isViewVisible</key>
 				<false/>
 				<key>location</key>
-				<string>637.500000:491.000000</string>
+				<string>438.000000:681.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Scale Images.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
@@ -1011,7 +1011,7 @@
 				<key>isViewVisible</key>
 				<false/>
 				<key>location</key>
-				<string>637.500000:449.000000</string>
+				<string>438.000000:639.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Apply Quartz Composition Filter to Image Files.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
@@ -1116,14 +1116,14 @@
 					</dict>
 				</dict>
 				<key>isViewVisible</key>
-				<false/>
+				<true/>
 				<key>location</key>
-				<string>637.500000:407.000000</string>
+				<string>438.000000:597.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Apply Quartz Composition Filter to Image Files.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
 			<key>isViewVisible</key>
-			<false/>
+			<true/>
 		</dict>
 		<dict>
 			<key>action</key>
@@ -1222,7 +1222,7 @@
 				<key>isViewVisible</key>
 				<false/>
 				<key>location</key>
-				<string>637.500000:365.000000</string>
+				<string>438.000000:286.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/New PDF from Images.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
@@ -1332,7 +1332,7 @@
 				<key>isViewVisible</key>
 				<false/>
 				<key>location</key>
-				<string>637.500000:323.000000</string>
+				<string>438.000000:244.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Set Value of Variable.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
@@ -1371,9 +1371,11 @@
 				<dict>
 					<key>Container</key>
 					<string>List</string>
+					<key>Optional</key>
+					<false/>
 					<key>Types</key>
 					<array>
-						<string>*</string>
+						<string>com.apple.cocoa.path</string>
 					</array>
 				</dict>
 				<key>AMRequiredResources</key>
@@ -1442,7 +1444,7 @@
 				<key>isViewVisible</key>
 				<false/>
 				<key>location</key>
-				<string>637.500000:281.000000</string>
+				<string>438.000000:202.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Get Value of Variable.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
@@ -1562,7 +1564,7 @@
 				<key>isViewVisible</key>
 				<false/>
 				<key>location</key>
-				<string>637.500000:239.000000</string>
+				<string>438.000000:160.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Move Finder Items.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
@@ -1601,9 +1603,11 @@
 				<dict>
 					<key>Container</key>
 					<string>List</string>
+					<key>Optional</key>
+					<false/>
 					<key>Types</key>
 					<array>
-						<string>*</string>
+						<string>com.apple.cocoa.path</string>
 					</array>
 				</dict>
 				<key>AMRequiredResources</key>
@@ -1672,7 +1676,7 @@
 				<key>isViewVisible</key>
 				<false/>
 				<key>location</key>
-				<string>637.500000:197.000000</string>
+				<string>438.000000:118.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Get Value of Variable.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
@@ -1780,14 +1784,7 @@
 			<key>to</key>
 			<string>E70E04B1-2FFC-4072-9562-0060E8CAE52F - E70E04B1-2FFC-4072-9562-0060E8CAE52F</string>
 		</dict>
-		<key>3BDF0F9D-01C5-439E-9F6D-176693FD918C</key>
-		<dict>
-			<key>from</key>
-			<string>71A37C6D-EBC7-46E0-89AE-062F5F270678 - 71A37C6D-EBC7-46E0-89AE-062F5F270678</string>
-			<key>to</key>
-			<string>BDE588D9-3B13-432B-A739-505847C60641 - BDE588D9-3B13-432B-A739-505847C60641</string>
-		</dict>
-		<key>60EFB8F6-34F7-44AC-904D-10EB04D8B7BD</key>
+		<key>6AC55773-6662-4CAA-8D65-3DA159EC1B68</key>
 		<dict>
 			<key>from</key>
 			<string>DEF7BCD9-69E8-431B-8B8C-244C94A3E50B - DEF7BCD9-69E8-431B-8B8C-244C94A3E50B</string>
@@ -1842,6 +1839,13 @@
 			<string>54EAAB91-AB4F-46CE-9845-2D5E86A08215 - 54EAAB91-AB4F-46CE-9845-2D5E86A08215</string>
 			<key>to</key>
 			<string>6253508B-9415-4D7D-9E23-902C49E8F726 - 6253508B-9415-4D7D-9E23-902C49E8F726</string>
+		</dict>
+		<key>ECCC19B8-49C5-4E84-B3F2-F97C198D2D60</key>
+		<dict>
+			<key>from</key>
+			<string>71A37C6D-EBC7-46E0-89AE-062F5F270678 - 71A37C6D-EBC7-46E0-89AE-062F5F270678</string>
+			<key>to</key>
+			<string>BDE588D9-3B13-432B-A739-505847C60641 - BDE588D9-3B13-432B-A739-505847C60641</string>
 		</dict>
 	</dict>
 	<key>state</key>
@@ -1898,7 +1902,7 @@
 			<key>subviewState</key>
 			<array>
 				<string>0.000000, 0.000000, 0.000000, 923.000000, YES</string>
-				<string>0.000000, 0.000000, 1275.000000, 923.000000, NO</string>
+				<string>0.000000, 0.000000, 891.000000, 915.000000, NO</string>
 			</array>
 		</dict>
 		<key>minorSplitViewState</key>
@@ -1907,14 +1911,14 @@
 			<real>150</real>
 			<key>subviewState</key>
 			<array>
-				<string>0.000000, 0.000000, 1275.000000, 904.000000, NO</string>
+				<string>0.000000, 0.000000, 891.000000, 896.000000, NO</string>
 				<string>0.000000, 689.000000, 819.000000, 140.000000, YES</string>
 			</array>
 		</dict>
 		<key>windowFrame</key>
-		<string>{{81, 157}, {1274, 1000}}</string>
+		<string>{{99, 147}, {890, 992}}</string>
 		<key>workflowViewScrollPosition</key>
-		<string>{{0, 0}, {1275, 904}}</string>
+		<string>{{0, 188}, {876, 896}}</string>
 	</dict>
 	<key>variables</key>
 	<array>

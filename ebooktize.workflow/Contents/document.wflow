@@ -167,7 +167,7 @@
 				<key>isViewVisible</key>
 				<false/>
 				<key>location</key>
-				<string>422.500000:832.000000</string>
+				<string>381.000000:928.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Ask for Finder Items.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
@@ -316,228 +316,12 @@
 				<key>isViewVisible</key>
 				<false/>
 				<key>location</key>
-				<string>422.500000:790.000000</string>
+				<string>381.000000:886.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Render PDF Pages as Images.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
 			<key>isViewVisible</key>
 			<false/>
-		</dict>
-		<dict>
-			<key>action</key>
-			<dict>
-				<key>AMAccepts</key>
-				<dict>
-					<key>Container</key>
-					<string>List</string>
-					<key>Optional</key>
-					<false/>
-					<key>Types</key>
-					<array>
-						<string>com.apple.applescript.alias-object.image</string>
-					</array>
-				</dict>
-				<key>AMActionVersion</key>
-				<string>7</string>
-				<key>AMParameterProperties</key>
-				<dict>
-					<key>filterIdentifier</key>
-					<dict/>
-					<key>filterParameters</key>
-					<dict/>
-					<key>temporary items path</key>
-					<dict/>
-				</dict>
-				<key>AMProvides</key>
-				<dict>
-					<key>Container</key>
-					<string>List</string>
-					<key>Types</key>
-					<array>
-						<string>com.apple.applescript.alias-object.image</string>
-					</array>
-				</dict>
-				<key>AMRequiredResources</key>
-				<array/>
-				<key>ActionBundlePath</key>
-				<string>/System/Library/Automator/Apply Quartz Composition Filter to Image Files.action</string>
-				<key>ActionName</key>
-				<string>Apply Quartz Composition Filter to Image Files</string>
-				<key>ActionParameters</key>
-				<dict>
-					<key>filterIdentifier</key>
-					<string>/sharpen</string>
-					<key>filterParameters</key>
-					<dict>
-						<key>amount</key>
-						<real>0.20000000000000001</real>
-					</dict>
-				</dict>
-				<key>Application</key>
-				<array/>
-				<key>BundleIdentifier</key>
-				<string>com.apple.QuartzComposer.automatorActions.imageFilter</string>
-				<key>CFBundleVersion</key>
-				<string>7</string>
-				<key>CanShowSelectedItemsWhenRun</key>
-				<false/>
-				<key>CanShowWhenRun</key>
-				<true/>
-				<key>Category</key>
-				<array>
-					<string>AMCategoryPhotos</string>
-				</array>
-				<key>Class Name</key>
-				<string>QuartzComposerImageFilter</string>
-				<key>InputUUID</key>
-				<string>85B8797E-197A-4E79-90A7-04FC091DF3CD</string>
-				<key>Keywords</key>
-				<array>
-					<string>Quartz Composer</string>
-					<string>Image</string>
-				</array>
-				<key>OutputUUID</key>
-				<string>0E7A129B-DDE0-41E2-91D2-4F78F5C5A00D</string>
-				<key>StartAction</key>
-				<false/>
-				<key>UUID</key>
-				<string>6F4996C4-8931-445C-B269-695AFFB003AD</string>
-				<key>arguments</key>
-				<dict>
-					<key>0</key>
-					<dict>
-						<key>default value</key>
-						<string>/sepia</string>
-						<key>name</key>
-						<string>filterIdentifier</string>
-						<key>required</key>
-						<string>0</string>
-						<key>type</key>
-						<string>0</string>
-						<key>uuid</key>
-						<string>0</string>
-					</dict>
-				</dict>
-				<key>isViewVisible</key>
-				<false/>
-				<key>location</key>
-				<string>422.500000:748.000000</string>
-				<key>nibPath</key>
-				<string>/System/Library/Automator/Apply Quartz Composition Filter to Image Files.action/Contents/Resources/English.lproj/main.nib</string>
-			</dict>
-			<key>isViewVisible</key>
-			<false/>
-		</dict>
-		<dict>
-			<key>action</key>
-			<dict>
-				<key>AMAccepts</key>
-				<dict>
-					<key>Container</key>
-					<string>List</string>
-					<key>Optional</key>
-					<false/>
-					<key>Types</key>
-					<array>
-						<string>com.apple.applescript.alias-object.image</string>
-					</array>
-				</dict>
-				<key>AMActionVersion</key>
-				<string>7</string>
-				<key>AMParameterProperties</key>
-				<dict>
-					<key>filterIdentifier</key>
-					<dict/>
-					<key>filterParameters</key>
-					<dict/>
-					<key>temporary items path</key>
-					<dict/>
-				</dict>
-				<key>AMProvides</key>
-				<dict>
-					<key>Container</key>
-					<string>List</string>
-					<key>Types</key>
-					<array>
-						<string>com.apple.applescript.alias-object.image</string>
-					</array>
-				</dict>
-				<key>AMRequiredResources</key>
-				<array/>
-				<key>ActionBundlePath</key>
-				<string>/System/Library/Automator/Apply Quartz Composition Filter to Image Files.action</string>
-				<key>ActionName</key>
-				<string>Apply Quartz Composition Filter to Image Files</string>
-				<key>ActionParameters</key>
-				<dict>
-					<key>filterIdentifier</key>
-					<string>/color controls</string>
-					<key>filterParameters</key>
-					<dict>
-						<key>brightness</key>
-						<real>0.0</real>
-						<key>contrast</key>
-						<real>1.3</real>
-						<key>hue</key>
-						<real>0.0</real>
-						<key>saturation</key>
-						<real>1</real>
-					</dict>
-				</dict>
-				<key>Application</key>
-				<array/>
-				<key>BundleIdentifier</key>
-				<string>com.apple.QuartzComposer.automatorActions.imageFilter</string>
-				<key>CFBundleVersion</key>
-				<string>7</string>
-				<key>CanShowSelectedItemsWhenRun</key>
-				<false/>
-				<key>CanShowWhenRun</key>
-				<true/>
-				<key>Category</key>
-				<array>
-					<string>AMCategoryPhotos</string>
-				</array>
-				<key>Class Name</key>
-				<string>QuartzComposerImageFilter</string>
-				<key>InputUUID</key>
-				<string>8AC5210E-DD14-4E91-B353-F90B4C68149C</string>
-				<key>Keywords</key>
-				<array>
-					<string>Quartz Composer</string>
-					<string>Image</string>
-				</array>
-				<key>OutputUUID</key>
-				<string>E3E175DB-85D2-4985-8C5F-A123312647CC</string>
-				<key>StartAction</key>
-				<false/>
-				<key>UUID</key>
-				<string>2E98ABE9-32AF-4983-B341-F84A7922EB99</string>
-				<key>arguments</key>
-				<dict>
-					<key>0</key>
-					<dict>
-						<key>default value</key>
-						<string>/sepia</string>
-						<key>name</key>
-						<string>filterIdentifier</string>
-						<key>required</key>
-						<string>0</string>
-						<key>type</key>
-						<string>0</string>
-						<key>uuid</key>
-						<string>0</string>
-					</dict>
-				</dict>
-				<key>isViewVisible</key>
-				<true/>
-				<key>location</key>
-				<string>422.500000:706.000000</string>
-				<key>nibPath</key>
-				<string>/System/Library/Automator/Apply Quartz Composition Filter to Image Files.action/Contents/Resources/English.lproj/main.nib</string>
-			</dict>
-			<key>isViewVisible</key>
-			<true/>
 		</dict>
 		<dict>
 			<key>action</key>
@@ -628,8 +412,6 @@
 				</array>
 				<key>OutputUUID</key>
 				<string>4DCA4879-FFE7-4086-A56D-F62847F7EF91</string>
-				<key>StartAction</key>
-				<false/>
 				<key>UUID</key>
 				<string>133FFB66-5EEA-4B28-8769-392426DF6D35</string>
 				<key>UnlocalizedApplications</key>
@@ -720,7 +502,7 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>422.500000:395.000000</string>
+				<string>381.000000:844.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Crop Images.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
@@ -742,16 +524,12 @@
 					</array>
 				</dict>
 				<key>AMActionVersion</key>
-				<string>1.2</string>
+				<string>7</string>
 				<key>AMParameterProperties</key>
 				<dict>
-					<key>percentageValue</key>
+					<key>filterIdentifier</key>
 					<dict/>
-					<key>scaleMethod</key>
-					<dict/>
-					<key>scaleValue</key>
-					<dict/>
-					<key>sizeValue</key>
+					<key>filterParameters</key>
 					<dict/>
 				</dict>
 				<key>AMProvides</key>
@@ -763,31 +541,30 @@
 						<string>com.apple.applescript.alias-object.image</string>
 					</array>
 				</dict>
+				<key>AMRequiredResources</key>
+				<array/>
 				<key>ActionBundlePath</key>
-				<string>/System/Library/Automator/Scale Images.action</string>
+				<string>/System/Library/Automator/Apply Quartz Composition Filter to Image Files.action</string>
 				<key>ActionName</key>
-				<string>Scale Images</string>
+				<string>Apply Quartz Composition Filter to Image Files</string>
 				<key>ActionParameters</key>
 				<dict>
-					<key>percentageValue</key>
-					<integer>100</integer>
-					<key>scaleMethod</key>
-					<integer>0</integer>
-					<key>scaleValue</key>
-					<integer>0</integer>
-					<key>sizeValue</key>
-					<real>750</real>
+					<key>filterIdentifier</key>
+					<string>/sharpen</string>
+					<key>filterParameters</key>
+					<dict>
+						<key>amount</key>
+						<real>0.20000000000000001</real>
+					</dict>
 				</dict>
 				<key>Application</key>
-				<array>
-					<string>Preview</string>
-				</array>
+				<array/>
 				<key>BundleIdentifier</key>
-				<string>com.apple.Automator.ScaleImage</string>
+				<string>com.apple.QuartzComposer.automatorActions.imageFilter</string>
 				<key>CFBundleVersion</key>
-				<string>1.2</string>
+				<string>7</string>
 				<key>CanShowSelectedItemsWhenRun</key>
-				<true/>
+				<false/>
 				<key>CanShowWhenRun</key>
 				<true/>
 				<key>Category</key>
@@ -795,85 +572,344 @@
 					<string>AMCategoryPhotos</string>
 				</array>
 				<key>Class Name</key>
-				<string>AMScaleImagesAction</string>
+				<string>QuartzComposerImageFilter</string>
 				<key>InputUUID</key>
-				<string>1CC37E27-ECF0-486B-80A6-9E6440B65E72</string>
+				<string>85B8797E-197A-4E79-90A7-04FC091DF3CD</string>
 				<key>Keywords</key>
 				<array>
+					<string>Quartz Composer</string>
 					<string>Image</string>
-					<string>Photo</string>
-					<string>Scale</string>
-					<string>Change</string>
 				</array>
 				<key>OutputUUID</key>
-				<string>B29A4AEC-98E9-488D-AA4B-4B2E0953FF12</string>
+				<string>0E7A129B-DDE0-41E2-91D2-4F78F5C5A00D</string>
 				<key>UUID</key>
-				<string>C01B74C2-C3A7-40DE-9386-D9C3A215E8DE</string>
-				<key>UnlocalizedApplications</key>
-				<array>
-					<string>Preview</string>
-				</array>
+				<string>6F4996C4-8931-445C-B269-695AFFB003AD</string>
 				<key>arguments</key>
 				<dict>
 					<key>0</key>
 					<dict>
 						<key>default value</key>
-						<integer>0</integer>
+						<string>/sepia</string>
 						<key>name</key>
-						<string>scaleValue</string>
+						<string>filterIdentifier</string>
 						<key>required</key>
 						<string>0</string>
 						<key>type</key>
 						<string>0</string>
 						<key>uuid</key>
 						<string>0</string>
-					</dict>
-					<key>1</key>
-					<dict>
-						<key>default value</key>
-						<integer>100</integer>
-						<key>name</key>
-						<string>percentageValue</string>
-						<key>required</key>
-						<string>0</string>
-						<key>type</key>
-						<string>0</string>
-						<key>uuid</key>
-						<string>1</string>
-					</dict>
-					<key>2</key>
-					<dict>
-						<key>default value</key>
-						<integer>0</integer>
-						<key>name</key>
-						<string>scaleMethod</string>
-						<key>required</key>
-						<string>0</string>
-						<key>type</key>
-						<string>0</string>
-						<key>uuid</key>
-						<string>2</string>
-					</dict>
-					<key>3</key>
-					<dict>
-						<key>default value</key>
-						<integer>480</integer>
-						<key>name</key>
-						<string>sizeValue</string>
-						<key>required</key>
-						<string>0</string>
-						<key>type</key>
-						<string>0</string>
-						<key>uuid</key>
-						<string>3</string>
 					</dict>
 				</dict>
 				<key>isViewVisible</key>
 				<false/>
 				<key>location</key>
-				<string>422.500000:182.000000</string>
+				<string>381.000000:631.000000</string>
 				<key>nibPath</key>
-				<string>/System/Library/Automator/Scale Images.action/Contents/Resources/English.lproj/main.nib</string>
+				<string>/System/Library/Automator/Apply Quartz Composition Filter to Image Files.action/Contents/Resources/English.lproj/main.nib</string>
+			</dict>
+			<key>isViewVisible</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>action</key>
+			<dict>
+				<key>AMAccepts</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Optional</key>
+					<false/>
+					<key>Types</key>
+					<array>
+						<string>com.apple.applescript.alias-object.image</string>
+					</array>
+				</dict>
+				<key>AMActionVersion</key>
+				<string>7</string>
+				<key>AMParameterProperties</key>
+				<dict>
+					<key>filterIdentifier</key>
+					<dict/>
+				</dict>
+				<key>AMProvides</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Types</key>
+					<array>
+						<string>com.apple.applescript.alias-object.image</string>
+					</array>
+				</dict>
+				<key>AMRequiredResources</key>
+				<array/>
+				<key>ActionBundlePath</key>
+				<string>/System/Library/Automator/Apply Quartz Composition Filter to Image Files.action</string>
+				<key>ActionName</key>
+				<string>Apply Quartz Composition Filter to Image Files</string>
+				<key>ActionParameters</key>
+				<dict>
+					<key>filterIdentifier</key>
+					<string>/gamma adjust</string>
+				</dict>
+				<key>Application</key>
+				<array/>
+				<key>BundleIdentifier</key>
+				<string>com.apple.QuartzComposer.automatorActions.imageFilter</string>
+				<key>CFBundleVersion</key>
+				<string>7</string>
+				<key>CanShowSelectedItemsWhenRun</key>
+				<false/>
+				<key>CanShowWhenRun</key>
+				<true/>
+				<key>Category</key>
+				<array>
+					<string>AMCategoryPhotos</string>
+				</array>
+				<key>Class Name</key>
+				<string>QuartzComposerImageFilter</string>
+				<key>InputUUID</key>
+				<string>ACF13DEA-7614-4256-B993-9EB1488268C6</string>
+				<key>Keywords</key>
+				<array>
+					<string>Quartz Composer</string>
+					<string>Image</string>
+				</array>
+				<key>OutputUUID</key>
+				<string>9AAEF47B-1945-4615-8CDB-39484DF2902D</string>
+				<key>UUID</key>
+				<string>7615079D-5089-4274-B674-FCF0E0BF9ED5</string>
+				<key>arguments</key>
+				<dict>
+					<key>0</key>
+					<dict>
+						<key>default value</key>
+						<string>/sepia</string>
+						<key>name</key>
+						<string>filterIdentifier</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>0</string>
+					</dict>
+				</dict>
+				<key>isViewVisible</key>
+				<false/>
+				<key>location</key>
+				<string>381.000000:589.000000</string>
+				<key>nibPath</key>
+				<string>/System/Library/Automator/Apply Quartz Composition Filter to Image Files.action/Contents/Resources/English.lproj/main.nib</string>
+			</dict>
+			<key>isViewVisible</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>action</key>
+			<dict>
+				<key>AMAccepts</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Optional</key>
+					<false/>
+					<key>Types</key>
+					<array>
+						<string>com.apple.applescript.alias-object.image</string>
+					</array>
+				</dict>
+				<key>AMActionVersion</key>
+				<string>7</string>
+				<key>AMParameterProperties</key>
+				<dict>
+					<key>filterIdentifier</key>
+					<dict/>
+				</dict>
+				<key>AMProvides</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Types</key>
+					<array>
+						<string>com.apple.applescript.alias-object.image</string>
+					</array>
+				</dict>
+				<key>AMRequiredResources</key>
+				<array/>
+				<key>ActionBundlePath</key>
+				<string>/System/Library/Automator/Apply Quartz Composition Filter to Image Files.action</string>
+				<key>ActionName</key>
+				<string>Apply Quartz Composition Filter to Image Files</string>
+				<key>ActionParameters</key>
+				<dict>
+					<key>filterIdentifier</key>
+					<string>/blackandwhite</string>
+				</dict>
+				<key>Application</key>
+				<array/>
+				<key>BundleIdentifier</key>
+				<string>com.apple.QuartzComposer.automatorActions.imageFilter</string>
+				<key>CFBundleVersion</key>
+				<string>7</string>
+				<key>CanShowSelectedItemsWhenRun</key>
+				<false/>
+				<key>CanShowWhenRun</key>
+				<true/>
+				<key>Category</key>
+				<array>
+					<string>AMCategoryPhotos</string>
+				</array>
+				<key>Class Name</key>
+				<string>QuartzComposerImageFilter</string>
+				<key>InputUUID</key>
+				<string>683BF5FA-099F-40D9-9DF0-1642C1CEBAA5</string>
+				<key>Keywords</key>
+				<array>
+					<string>Quartz Composer</string>
+					<string>Image</string>
+				</array>
+				<key>OutputUUID</key>
+				<string>AF1F00B4-3815-415F-A93A-C0F7152926D1</string>
+				<key>UUID</key>
+				<string>9AF7EFDC-B0D1-4DFD-886F-B50F0A31CEBC</string>
+				<key>arguments</key>
+				<dict>
+					<key>0</key>
+					<dict>
+						<key>default value</key>
+						<string>/sepia</string>
+						<key>name</key>
+						<string>filterIdentifier</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>0</string>
+					</dict>
+				</dict>
+				<key>isViewVisible</key>
+				<false/>
+				<key>location</key>
+				<string>381.000000:547.000000</string>
+				<key>nibPath</key>
+				<string>/System/Library/Automator/Apply Quartz Composition Filter to Image Files.action/Contents/Resources/English.lproj/main.nib</string>
+			</dict>
+			<key>isViewVisible</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>action</key>
+			<dict>
+				<key>AMAccepts</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Optional</key>
+					<false/>
+					<key>Types</key>
+					<array>
+						<string>com.apple.applescript.alias-object.image</string>
+					</array>
+				</dict>
+				<key>AMActionVersion</key>
+				<string>7</string>
+				<key>AMParameterProperties</key>
+				<dict>
+					<key>filterIdentifier</key>
+					<dict/>
+					<key>filterParameters</key>
+					<dict/>
+				</dict>
+				<key>AMProvides</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Types</key>
+					<array>
+						<string>com.apple.applescript.alias-object.image</string>
+					</array>
+				</dict>
+				<key>AMRequiredResources</key>
+				<array/>
+				<key>ActionBundlePath</key>
+				<string>/System/Library/Automator/Apply Quartz Composition Filter to Image Files.action</string>
+				<key>ActionName</key>
+				<string>Apply Quartz Composition Filter to Image Files</string>
+				<key>ActionParameters</key>
+				<dict>
+					<key>filterIdentifier</key>
+					<string>/image resizer</string>
+					<key>filterParameters</key>
+					<dict>
+						<key>backgroundColor</key>
+						<dict>
+							<key>alpha</key>
+							<real>1</real>
+							<key>blue</key>
+							<real>1</real>
+							<key>green</key>
+							<real>1</real>
+							<key>red</key>
+							<real>1</real>
+						</dict>
+						<key>mode</key>
+						<integer>3</integer>
+						<key>targetHeight</key>
+						<integer>750</integer>
+						<key>targetWidth</key>
+						<integer>590</integer>
+					</dict>
+				</dict>
+				<key>Application</key>
+				<array/>
+				<key>BundleIdentifier</key>
+				<string>com.apple.QuartzComposer.automatorActions.imageFilter</string>
+				<key>CFBundleVersion</key>
+				<string>7</string>
+				<key>CanShowSelectedItemsWhenRun</key>
+				<false/>
+				<key>CanShowWhenRun</key>
+				<true/>
+				<key>Category</key>
+				<array>
+					<string>AMCategoryPhotos</string>
+				</array>
+				<key>Class Name</key>
+				<string>QuartzComposerImageFilter</string>
+				<key>InputUUID</key>
+				<string>D8AACAEF-3275-4D8E-9837-62829EECF788</string>
+				<key>Keywords</key>
+				<array>
+					<string>Quartz Composer</string>
+					<string>Image</string>
+				</array>
+				<key>OutputUUID</key>
+				<string>87224A0E-6453-4D4A-AEA8-A7682140223C</string>
+				<key>UUID</key>
+				<string>D1971DEA-2C2C-4EDE-AB7A-028F7DBF3C74</string>
+				<key>arguments</key>
+				<dict>
+					<key>0</key>
+					<dict>
+						<key>default value</key>
+						<string>/sepia</string>
+						<key>name</key>
+						<string>filterIdentifier</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>0</string>
+					</dict>
+				</dict>
+				<key>isViewVisible</key>
+				<false/>
+				<key>location</key>
+				<string>381.000000:505.000000</string>
+				<key>nibPath</key>
+				<string>/System/Library/Automator/Apply Quartz Composition Filter to Image Files.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
 			<key>isViewVisible</key>
 			<false/>
@@ -975,7 +1011,7 @@
 				<key>isViewVisible</key>
 				<false/>
 				<key>location</key>
-				<string>422.500000:140.000000</string>
+				<string>381.000000:463.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/New PDF from Images.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
@@ -985,47 +1021,54 @@
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>122B0933-94ED-4F4B-9DF8-7203A109E3E9</key>
+		<key>0CBC97F6-3B8E-4270-9E92-B8DA9D96659D</key>
 		<dict>
 			<key>from</key>
-			<string>2E98ABE9-32AF-4983-B341-F84A7922EB99 - 2E98ABE9-32AF-4983-B341-F84A7922EB99</string>
-			<key>to</key>
 			<string>133FFB66-5EEA-4B28-8769-392426DF6D35 - 133FFB66-5EEA-4B28-8769-392426DF6D35</string>
-		</dict>
-		<key>55912631-BA33-4A04-B782-2E95D3B64846</key>
-		<dict>
-			<key>from</key>
-			<string>B775F07B-282F-4B11-998A-7351DADB680C - B775F07B-282F-4B11-998A-7351DADB680C</string>
 			<key>to</key>
 			<string>6F4996C4-8931-445C-B269-695AFFB003AD - 6F4996C4-8931-445C-B269-695AFFB003AD</string>
 		</dict>
-		<key>58BA9BDB-8004-40BB-BBE0-28DF6722912A</key>
+		<key>4DC1F6B8-081E-451A-BC86-C16282D55C90</key>
 		<dict>
 			<key>from</key>
-			<string>C01B74C2-C3A7-40DE-9386-D9C3A215E8DE - C01B74C2-C3A7-40DE-9386-D9C3A215E8DE</string>
+			<string>D1971DEA-2C2C-4EDE-AB7A-028F7DBF3C74 - D1971DEA-2C2C-4EDE-AB7A-028F7DBF3C74</string>
 			<key>to</key>
 			<string>E70E04B1-2FFC-4072-9562-0060E8CAE52F - E70E04B1-2FFC-4072-9562-0060E8CAE52F</string>
 		</dict>
-		<key>B47CC0BE-C306-40B6-B071-5CE17F429E58</key>
+		<key>6D508BD2-C7B5-4D8C-8B05-B093B830EBE5</key>
+		<dict>
+			<key>from</key>
+			<string>7615079D-5089-4274-B674-FCF0E0BF9ED5 - 7615079D-5089-4274-B674-FCF0E0BF9ED5</string>
+			<key>to</key>
+			<string>9AF7EFDC-B0D1-4DFD-886F-B50F0A31CEBC - 9AF7EFDC-B0D1-4DFD-886F-B50F0A31CEBC</string>
+		</dict>
+		<key>78146A69-642B-495A-B99A-9A162821D3E2</key>
+		<dict>
+			<key>from</key>
+			<string>9AF7EFDC-B0D1-4DFD-886F-B50F0A31CEBC - 9AF7EFDC-B0D1-4DFD-886F-B50F0A31CEBC</string>
+			<key>to</key>
+			<string>D1971DEA-2C2C-4EDE-AB7A-028F7DBF3C74 - D1971DEA-2C2C-4EDE-AB7A-028F7DBF3C74</string>
+		</dict>
+		<key>AD1E0537-782E-495B-BAEC-E5FFFE9A3355</key>
 		<dict>
 			<key>from</key>
 			<string>6F4996C4-8931-445C-B269-695AFFB003AD - 6F4996C4-8931-445C-B269-695AFFB003AD</string>
 			<key>to</key>
-			<string>2E98ABE9-32AF-4983-B341-F84A7922EB99 - 2E98ABE9-32AF-4983-B341-F84A7922EB99</string>
+			<string>7615079D-5089-4274-B674-FCF0E0BF9ED5 - 7615079D-5089-4274-B674-FCF0E0BF9ED5</string>
 		</dict>
-		<key>CD8ABA37-2C27-4CEF-9762-7573B9EF2ACD</key>
-		<dict>
-			<key>from</key>
-			<string>133FFB66-5EEA-4B28-8769-392426DF6D35 - 133FFB66-5EEA-4B28-8769-392426DF6D35</string>
-			<key>to</key>
-			<string>C01B74C2-C3A7-40DE-9386-D9C3A215E8DE - C01B74C2-C3A7-40DE-9386-D9C3A215E8DE</string>
-		</dict>
-		<key>DB9DE116-9F10-4E3A-9F6B-5511988BEABE</key>
+		<key>E980C47F-4E41-4626-A0DD-B50DC7A81E26</key>
 		<dict>
 			<key>from</key>
 			<string>CD7BAE6B-A41D-43B0-88C2-00704F4F2194 - CD7BAE6B-A41D-43B0-88C2-00704F4F2194</string>
 			<key>to</key>
 			<string>B775F07B-282F-4B11-998A-7351DADB680C - B775F07B-282F-4B11-998A-7351DADB680C</string>
+		</dict>
+		<key>ED156AC8-704B-47E6-AA49-3D6C38120C21</key>
+		<dict>
+			<key>from</key>
+			<string>B775F07B-282F-4B11-998A-7351DADB680C - B775F07B-282F-4B11-998A-7351DADB680C</string>
+			<key>to</key>
+			<string>133FFB66-5EEA-4B28-8769-392426DF6D35 - 133FFB66-5EEA-4B28-8769-392426DF6D35</string>
 		</dict>
 	</dict>
 	<key>state</key>
@@ -1040,8 +1083,8 @@
 				<real>0.0</real>
 				<key>subviewState</key>
 				<array>
-					<string>0.000000, 0.000000, 381.000000, 563.000000, NO</string>
-					<string>0.000000, 564.000000, 381.000000, 239.000000, NO</string>
+					<string>0.000000, 0.000000, 381.000000, 652.000000, NO</string>
+					<string>0.000000, 653.000000, 381.000000, 239.000000, NO</string>
 				</array>
 			</dict>
 			<key>actionsMinorSplitViewState</key>
@@ -1050,8 +1093,8 @@
 				<real>0.0</real>
 				<key>subviewState</key>
 				<array>
-					<string>0.000000, 0.000000, 163.000000, 563.000000, NO</string>
-					<string>164.000000, 0.000000, 217.000000, 563.000000, NO</string>
+					<string>0.000000, 0.000000, 163.000000, 652.000000, NO</string>
+					<string>164.000000, 0.000000, 217.000000, 652.000000, NO</string>
 				</array>
 			</dict>
 			<key>variablesMajorSplitViewState</key>
@@ -1081,8 +1124,8 @@
 			<real>381</real>
 			<key>subviewState</key>
 			<array>
-				<string>0.000000, 0.000000, 0.000000, 848.000000, YES</string>
-				<string>0.000000, 0.000000, 845.000000, 841.000000, NO</string>
+				<string>0.000000, 0.000000, 0.000000, 937.000000, YES</string>
+				<string>0.000000, 0.000000, 762.000000, 937.000000, NO</string>
 			</array>
 		</dict>
 		<key>minorSplitViewState</key>
@@ -1091,14 +1134,14 @@
 			<real>150</real>
 			<key>subviewState</key>
 			<array>
-				<string>0.000000, 0.000000, 845.000000, 822.000000, NO</string>
+				<string>0.000000, 0.000000, 762.000000, 918.000000, NO</string>
 				<string>0.000000, 689.000000, 819.000000, 140.000000, YES</string>
 			</array>
 		</dict>
 		<key>windowFrame</key>
-		<string>{{501, 159}, {844, 918}}</string>
+		<string>{{44, 104}, {761, 1014}}</string>
 		<key>workflowViewScrollPosition</key>
-		<string>{{0, 0}, {845, 822}}</string>
+		<string>{{0, 0}, {762, 918}}</string>
 	</dict>
 	<key>workflowMetaData</key>
 	<dict>
