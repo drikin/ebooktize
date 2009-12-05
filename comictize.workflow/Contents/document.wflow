@@ -786,7 +786,7 @@
 				<dict>
 					<key>filterIdentifier</key>
 					<dict/>
-					<key>temporary items path</key>
+					<key>filterParameters</key>
 					<dict/>
 				</dict>
 				<key>AMProvides</key>
@@ -839,8 +839,6 @@
 				</array>
 				<key>OutputUUID</key>
 				<string>467A56E3-EAE1-4FFF-A97A-D9A81F69CFDF</string>
-				<key>StartAction</key>
-				<false/>
 				<key>UUID</key>
 				<string>A608C6DA-0972-4650-87D0-F39D886C886B</string>
 				<key>arguments</key>
@@ -889,8 +887,6 @@
 				<dict>
 					<key>filterIdentifier</key>
 					<dict/>
-					<key>temporary items path</key>
-					<dict/>
 				</dict>
 				<key>AMProvides</key>
 				<dict>
@@ -937,8 +933,6 @@
 				</array>
 				<key>OutputUUID</key>
 				<string>9DFEA3A8-D5F8-4DED-8979-657A288CA378</string>
-				<key>StartAction</key>
-				<false/>
 				<key>UUID</key>
 				<string>F0F32161-4639-4FAB-89B0-21F406D57B24</string>
 				<key>arguments</key>
@@ -989,8 +983,6 @@
 					<dict/>
 					<key>filterParameters</key>
 					<dict/>
-					<key>temporary items path</key>
-					<dict/>
 				</dict>
 				<key>AMProvides</key>
 				<dict>
@@ -1027,9 +1019,9 @@
 						<key>mode</key>
 						<integer>3</integer>
 						<key>targetHeight</key>
-						<integer>750</integer>
+						<integer>751</integer>
 						<key>targetWidth</key>
-						<integer>562</integer>
+						<integer>584</integer>
 					</dict>
 				</dict>
 				<key>Application</key>
@@ -1057,8 +1049,6 @@
 				</array>
 				<key>OutputUUID</key>
 				<string>FA3EEA04-CC3B-46F3-B35B-CDE19C45115C</string>
-				<key>StartAction</key>
-				<false/>
 				<key>UUID</key>
 				<string>FEDE4186-A401-40AD-89C4-8D504B04DBC9</string>
 				<key>arguments</key>
@@ -1333,11 +1323,9 @@
 				<dict>
 					<key>Container</key>
 					<string>List</string>
-					<key>Optional</key>
-					<false/>
 					<key>Types</key>
 					<array>
-						<string>com.apple.cocoa.path</string>
+						<string>*</string>
 					</array>
 				</dict>
 				<key>AMRequiredResources</key>
@@ -1565,11 +1553,9 @@
 				<dict>
 					<key>Container</key>
 					<string>List</string>
-					<key>Optional</key>
-					<false/>
 					<key>Types</key>
 					<array>
-						<string>com.apple.cocoa.path</string>
+						<string>*</string>
 					</array>
 				</dict>
 				<key>AMRequiredResources</key>
@@ -1711,103 +1697,103 @@
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>4CB407FC-5615-44C9-9BAF-9F1EC5AF4883</key>
+		<key>2D834777-478C-44F9-9FE2-69A82F96B8FA</key>
+		<dict>
+			<key>from</key>
+			<string>A608C6DA-0972-4650-87D0-F39D886C886B - A608C6DA-0972-4650-87D0-F39D886C886B</string>
+			<key>to</key>
+			<string>F0F32161-4639-4FAB-89B0-21F406D57B24 - F0F32161-4639-4FAB-89B0-21F406D57B24</string>
+		</dict>
+		<key>31AF1EED-7022-491B-BDD8-0ED65AE6FFDA</key>
 		<dict>
 			<key>from</key>
 			<string>DEF7BCD9-69E8-431B-8B8C-244C94A3E50B - DEF7BCD9-69E8-431B-8B8C-244C94A3E50B</string>
 			<key>to</key>
 			<string>10D2BE39-599A-4DBE-B613-F47C8413FD02 - 10D2BE39-599A-4DBE-B613-F47C8413FD02</string>
 		</dict>
-		<key>5432C373-B5DC-4C83-A6E2-44D7D8287BAD</key>
+		<key>3650AD16-83B2-4968-9497-E2AC985FEA23</key>
 		<dict>
 			<key>from</key>
-			<string>BDE588D9-3B13-432B-A739-505847C60641 - BDE588D9-3B13-432B-A739-505847C60641</string>
+			<string>08C55A0C-BF19-42A5-B179-9B74BA635C71 - 08C55A0C-BF19-42A5-B179-9B74BA635C71</string>
 			<key>to</key>
-			<string>DEF7BCD9-69E8-431B-8B8C-244C94A3E50B - DEF7BCD9-69E8-431B-8B8C-244C94A3E50B</string>
+			<string>A608C6DA-0972-4650-87D0-F39D886C886B - A608C6DA-0972-4650-87D0-F39D886C886B</string>
 		</dict>
-		<key>543A0649-D7C9-426C-B7CC-F3DB6B986260</key>
+		<key>604706D3-779A-4859-A186-385FE98D9354</key>
 		<dict>
 			<key>from</key>
 			<string>419A843F-81C9-49AC-B3E9-76B32F2727A4 - 419A843F-81C9-49AC-B3E9-76B32F2727A4</string>
 			<key>to</key>
 			<string>57F2DA0E-A7F3-478B-A488-912862BA1D53 - 57F2DA0E-A7F3-478B-A488-912862BA1D53</string>
 		</dict>
-		<key>67016F90-50E2-4D37-A5A8-9C3E86E5D2FB</key>
-		<dict>
-			<key>from</key>
-			<string>96F6A916-BDA5-454D-B4FD-3232DF06115B - 96F6A916-BDA5-454D-B4FD-3232DF06115B</string>
-			<key>to</key>
-			<string>71A37C6D-EBC7-46E0-89AE-062F5F270678 - 71A37C6D-EBC7-46E0-89AE-062F5F270678</string>
-		</dict>
-		<key>71FC4373-3208-4376-A61C-3E41CA8A320C</key>
+		<key>7ADE7527-E716-47AF-A16E-FBB22E752DB1</key>
 		<dict>
 			<key>from</key>
 			<string>651AAAF1-7E17-431A-A1FD-E6A0E0A8046A - 651AAAF1-7E17-431A-A1FD-E6A0E0A8046A</string>
 			<key>to</key>
 			<string>C9C4D50D-A659-4951-AE10-243AAD56C78B - C9C4D50D-A659-4951-AE10-243AAD56C78B</string>
 		</dict>
-		<key>7B9CC3BA-9D33-4F0E-8F95-720DAE0922BB</key>
+		<key>7CF00DBF-FF50-4DCA-982A-469F81DAE316</key>
 		<dict>
 			<key>from</key>
-			<string>71A37C6D-EBC7-46E0-89AE-062F5F270678 - 71A37C6D-EBC7-46E0-89AE-062F5F270678</string>
+			<string>9BAFDB52-6064-4222-A071-E292A3A95316 - 9BAFDB52-6064-4222-A071-E292A3A95316</string>
 			<key>to</key>
-			<string>BDE588D9-3B13-432B-A739-505847C60641 - BDE588D9-3B13-432B-A739-505847C60641</string>
+			<string>651AAAF1-7E17-431A-A1FD-E6A0E0A8046A - 651AAAF1-7E17-431A-A1FD-E6A0E0A8046A</string>
 		</dict>
-		<key>7CEC20C4-91DB-4631-BC8F-223B663F1F0A</key>
+		<key>89229860-37FD-4F50-9C63-0A6DD57B1C11</key>
+		<dict>
+			<key>from</key>
+			<string>96F6A916-BDA5-454D-B4FD-3232DF06115B - 96F6A916-BDA5-454D-B4FD-3232DF06115B</string>
+			<key>to</key>
+			<string>71A37C6D-EBC7-46E0-89AE-062F5F270678 - 71A37C6D-EBC7-46E0-89AE-062F5F270678</string>
+		</dict>
+		<key>B657FCAB-D5F7-4E11-BC24-11883A790C9B</key>
+		<dict>
+			<key>from</key>
+			<string>FEDE4186-A401-40AD-89C4-8D504B04DBC9 - FEDE4186-A401-40AD-89C4-8D504B04DBC9</string>
+			<key>to</key>
+			<string>E70E04B1-2FFC-4072-9562-0060E8CAE52F - E70E04B1-2FFC-4072-9562-0060E8CAE52F</string>
+		</dict>
+		<key>B65A70C7-A905-4D5B-A754-9335863C1B8D</key>
 		<dict>
 			<key>from</key>
 			<string>57F2DA0E-A7F3-478B-A488-912862BA1D53 - 57F2DA0E-A7F3-478B-A488-912862BA1D53</string>
 			<key>to</key>
 			<string>9BAFDB52-6064-4222-A071-E292A3A95316 - 9BAFDB52-6064-4222-A071-E292A3A95316</string>
 		</dict>
-		<key>87292D90-B5FC-4EE7-A68E-435C067068AE</key>
-		<dict>
-			<key>from</key>
-			<string>08C55A0C-BF19-42A5-B179-9B74BA635C71 - 08C55A0C-BF19-42A5-B179-9B74BA635C71</string>
-			<key>to</key>
-			<string>A608C6DA-0972-4650-87D0-F39D886C886B - A608C6DA-0972-4650-87D0-F39D886C886B</string>
-		</dict>
-		<key>8FA31D4D-DC78-4B9B-9000-3055C6953B79</key>
-		<dict>
-			<key>from</key>
-			<string>FEDE4186-A401-40AD-89C4-8D504B04DBC9 - FEDE4186-A401-40AD-89C4-8D504B04DBC9</string>
-			<key>to</key>
-			<string>E70E04B1-2FFC-4072-9562-0060E8CAE52F - E70E04B1-2FFC-4072-9562-0060E8CAE52F</string>
-		</dict>
-		<key>9E8B3F16-1D61-463F-B6B5-BEA0D5949AC2</key>
+		<key>C075B248-D22B-494F-A92D-78B959A7869E</key>
 		<dict>
 			<key>from</key>
 			<string>F0F32161-4639-4FAB-89B0-21F406D57B24 - F0F32161-4639-4FAB-89B0-21F406D57B24</string>
 			<key>to</key>
 			<string>FEDE4186-A401-40AD-89C4-8D504B04DBC9 - FEDE4186-A401-40AD-89C4-8D504B04DBC9</string>
 		</dict>
-		<key>A1EAD71F-59D2-47DC-886C-D0276E42FB37</key>
-		<dict>
-			<key>from</key>
-			<string>A608C6DA-0972-4650-87D0-F39D886C886B - A608C6DA-0972-4650-87D0-F39D886C886B</string>
-			<key>to</key>
-			<string>F0F32161-4639-4FAB-89B0-21F406D57B24 - F0F32161-4639-4FAB-89B0-21F406D57B24</string>
-		</dict>
-		<key>B92B353A-EB45-436B-9C9D-F9208244AA8B</key>
-		<dict>
-			<key>from</key>
-			<string>E70E04B1-2FFC-4072-9562-0060E8CAE52F - E70E04B1-2FFC-4072-9562-0060E8CAE52F</string>
-			<key>to</key>
-			<string>96F6A916-BDA5-454D-B4FD-3232DF06115B - 96F6A916-BDA5-454D-B4FD-3232DF06115B</string>
-		</dict>
-		<key>CCE43E36-A4C4-48C3-ABB5-F5B95F8052FC</key>
-		<dict>
-			<key>from</key>
-			<string>9BAFDB52-6064-4222-A071-E292A3A95316 - 9BAFDB52-6064-4222-A071-E292A3A95316</string>
-			<key>to</key>
-			<string>651AAAF1-7E17-431A-A1FD-E6A0E0A8046A - 651AAAF1-7E17-431A-A1FD-E6A0E0A8046A</string>
-		</dict>
-		<key>DD5BF053-2A1C-4488-A703-A1A0A771355A</key>
+		<key>C4D8FFD9-D589-424E-BADB-3AF9430141BF</key>
 		<dict>
 			<key>from</key>
 			<string>C9C4D50D-A659-4951-AE10-243AAD56C78B - C9C4D50D-A659-4951-AE10-243AAD56C78B</string>
 			<key>to</key>
 			<string>08C55A0C-BF19-42A5-B179-9B74BA635C71 - 08C55A0C-BF19-42A5-B179-9B74BA635C71</string>
+		</dict>
+		<key>D0C85567-1722-4D12-A0E5-D42A8AE71063</key>
+		<dict>
+			<key>from</key>
+			<string>71A37C6D-EBC7-46E0-89AE-062F5F270678 - 71A37C6D-EBC7-46E0-89AE-062F5F270678</string>
+			<key>to</key>
+			<string>BDE588D9-3B13-432B-A739-505847C60641 - BDE588D9-3B13-432B-A739-505847C60641</string>
+		</dict>
+		<key>DA7CC614-6C66-4181-B31B-62378D9252CC</key>
+		<dict>
+			<key>from</key>
+			<string>BDE588D9-3B13-432B-A739-505847C60641 - BDE588D9-3B13-432B-A739-505847C60641</string>
+			<key>to</key>
+			<string>DEF7BCD9-69E8-431B-8B8C-244C94A3E50B - DEF7BCD9-69E8-431B-8B8C-244C94A3E50B</string>
+		</dict>
+		<key>E99BD53C-323B-4CA7-B0D0-49FB1790DE28</key>
+		<dict>
+			<key>from</key>
+			<string>E70E04B1-2FFC-4072-9562-0060E8CAE52F - E70E04B1-2FFC-4072-9562-0060E8CAE52F</string>
+			<key>to</key>
+			<string>96F6A916-BDA5-454D-B4FD-3232DF06115B - 96F6A916-BDA5-454D-B4FD-3232DF06115B</string>
 		</dict>
 	</dict>
 	<key>state</key>
