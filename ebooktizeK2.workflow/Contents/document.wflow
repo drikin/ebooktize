@@ -856,7 +856,7 @@
 						<key>mode</key>
 						<integer>3</integer>
 						<key>targetHeight</key>
-						<integer>751</integer>
+						<integer>750</integer>
 						<key>targetWidth</key>
 						<integer>560</integer>
 					</dict>
@@ -905,14 +905,14 @@
 					</dict>
 				</dict>
 				<key>isViewVisible</key>
-				<true/>
+				<false/>
 				<key>location</key>
 				<string>381.000000:505.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Apply Quartz Composition Filter to Image Files.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
 			<key>isViewVisible</key>
-			<true/>
+			<false/>
 		</dict>
 		<dict>
 			<key>action</key>
@@ -1011,7 +1011,7 @@
 				<key>isViewVisible</key>
 				<false/>
 				<key>location</key>
-				<string>381.000000:194.000000</string>
+				<string>381.000000:463.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/New PDF from Images.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
@@ -1021,54 +1021,54 @@
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>0635AC3A-77FF-48CF-BBD9-A17FDF73E7B0</key>
+		<key>1BD044A0-E4C7-4E07-8B68-C8F99B9D38A8</key>
 		<dict>
 			<key>from</key>
-			<string>9AF7EFDC-B0D1-4DFD-886F-B50F0A31CEBC - 9AF7EFDC-B0D1-4DFD-886F-B50F0A31CEBC</string>
+			<string>CD7BAE6B-A41D-43B0-88C2-00704F4F2194 - CD7BAE6B-A41D-43B0-88C2-00704F4F2194</string>
 			<key>to</key>
-			<string>D1971DEA-2C2C-4EDE-AB7A-028F7DBF3C74 - D1971DEA-2C2C-4EDE-AB7A-028F7DBF3C74</string>
+			<string>B775F07B-282F-4B11-998A-7351DADB680C - B775F07B-282F-4B11-998A-7351DADB680C</string>
 		</dict>
-		<key>5C1F7F5F-F685-4F96-9586-BA7382FF5655</key>
+		<key>3BF26128-65DE-4F9C-8D10-368EDA4EB8B5</key>
 		<dict>
 			<key>from</key>
 			<string>D1971DEA-2C2C-4EDE-AB7A-028F7DBF3C74 - D1971DEA-2C2C-4EDE-AB7A-028F7DBF3C74</string>
 			<key>to</key>
 			<string>E70E04B1-2FFC-4072-9562-0060E8CAE52F - E70E04B1-2FFC-4072-9562-0060E8CAE52F</string>
 		</dict>
-		<key>90DD9524-B65C-406A-AEA1-C3AE7F2A18B1</key>
+		<key>6C6E54A9-A426-48A6-9CFA-71D03A501887</key>
 		<dict>
 			<key>from</key>
 			<string>6F4996C4-8931-445C-B269-695AFFB003AD - 6F4996C4-8931-445C-B269-695AFFB003AD</string>
 			<key>to</key>
 			<string>7615079D-5089-4274-B674-FCF0E0BF9ED5 - 7615079D-5089-4274-B674-FCF0E0BF9ED5</string>
 		</dict>
-		<key>DC2B7DE1-F64D-44A7-A041-BB3371E21D73</key>
-		<dict>
-			<key>from</key>
-			<string>133FFB66-5EEA-4B28-8769-392426DF6D35 - 133FFB66-5EEA-4B28-8769-392426DF6D35</string>
-			<key>to</key>
-			<string>6F4996C4-8931-445C-B269-695AFFB003AD - 6F4996C4-8931-445C-B269-695AFFB003AD</string>
-		</dict>
-		<key>F11F1E28-304C-44FD-AFF2-508935EF12CC</key>
-		<dict>
-			<key>from</key>
-			<string>B775F07B-282F-4B11-998A-7351DADB680C - B775F07B-282F-4B11-998A-7351DADB680C</string>
-			<key>to</key>
-			<string>133FFB66-5EEA-4B28-8769-392426DF6D35 - 133FFB66-5EEA-4B28-8769-392426DF6D35</string>
-		</dict>
-		<key>FCBB9FF9-53A9-464E-8034-A5B3BA53A9DC</key>
+		<key>71D73B8A-A59C-4787-A23B-B05B94E21F4E</key>
 		<dict>
 			<key>from</key>
 			<string>7615079D-5089-4274-B674-FCF0E0BF9ED5 - 7615079D-5089-4274-B674-FCF0E0BF9ED5</string>
 			<key>to</key>
 			<string>9AF7EFDC-B0D1-4DFD-886F-B50F0A31CEBC - 9AF7EFDC-B0D1-4DFD-886F-B50F0A31CEBC</string>
 		</dict>
-		<key>FF15145D-6233-4FF5-A9A9-B5F131FFC925</key>
+		<key>BC73E2D8-E3BD-4D10-A1E7-A675AE1C93F7</key>
 		<dict>
 			<key>from</key>
-			<string>CD7BAE6B-A41D-43B0-88C2-00704F4F2194 - CD7BAE6B-A41D-43B0-88C2-00704F4F2194</string>
-			<key>to</key>
 			<string>B775F07B-282F-4B11-998A-7351DADB680C - B775F07B-282F-4B11-998A-7351DADB680C</string>
+			<key>to</key>
+			<string>133FFB66-5EEA-4B28-8769-392426DF6D35 - 133FFB66-5EEA-4B28-8769-392426DF6D35</string>
+		</dict>
+		<key>C20D6E29-E7A0-40BF-B8B7-A911BF21748C</key>
+		<dict>
+			<key>from</key>
+			<string>9AF7EFDC-B0D1-4DFD-886F-B50F0A31CEBC - 9AF7EFDC-B0D1-4DFD-886F-B50F0A31CEBC</string>
+			<key>to</key>
+			<string>D1971DEA-2C2C-4EDE-AB7A-028F7DBF3C74 - D1971DEA-2C2C-4EDE-AB7A-028F7DBF3C74</string>
+		</dict>
+		<key>F50C012D-A00D-4464-820F-FFE97B75DA95</key>
+		<dict>
+			<key>from</key>
+			<string>133FFB66-5EEA-4B28-8769-392426DF6D35 - 133FFB66-5EEA-4B28-8769-392426DF6D35</string>
+			<key>to</key>
+			<string>6F4996C4-8931-445C-B269-695AFFB003AD - 6F4996C4-8931-445C-B269-695AFFB003AD</string>
 		</dict>
 	</dict>
 	<key>state</key>
@@ -1139,7 +1139,7 @@
 			</array>
 		</dict>
 		<key>windowFrame</key>
-		<string>{{-1889, 107}, {761, 1014}}</string>
+		<string>{{0, 107}, {761, 1014}}</string>
 		<key>workflowViewScrollPosition</key>
 		<string>{{0, 0}, {762, 918}}</string>
 	</dict>
