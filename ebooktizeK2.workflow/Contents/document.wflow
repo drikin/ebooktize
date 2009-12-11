@@ -167,7 +167,7 @@
 				<key>isViewVisible</key>
 				<false/>
 				<key>location</key>
-				<string>398.500000:974.000000</string>
+				<string>381.000000:928.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Ask for Finder Items.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
@@ -199,12 +199,7 @@
 					<key>imageFormat</key>
 					<dict/>
 					<key>resolution</key>
-					<dict>
-						<key>tokenizedValue</key>
-						<array>
-							<string>300</string>
-						</array>
-					</dict>
+					<dict/>
 				</dict>
 				<key>AMProvides</key>
 				<dict>
@@ -228,7 +223,7 @@
 					<key>imageFormat</key>
 					<string>public.png</string>
 					<key>resolution</key>
-					<string>300</string>
+					<integer>200</integer>
 				</dict>
 				<key>Application</key>
 				<array>
@@ -321,7 +316,7 @@
 				<key>isViewVisible</key>
 				<false/>
 				<key>location</key>
-				<string>398.500000:932.000000</string>
+				<string>381.000000:886.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Render PDF Pages as Images.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
@@ -379,11 +374,11 @@
 					<key>scaleMethod</key>
 					<integer>1</integer>
 					<key>targetHeight</key>
-					<integer>480</integer>
+					<real>1350</real>
 					<key>targetHeightPercentage</key>
 					<string>90</string>
 					<key>targetWidth</key>
-					<integer>480</integer>
+					<real>850</real>
 					<key>targetWidthPercentagle</key>
 					<string>90</string>
 				</dict>
@@ -406,7 +401,7 @@
 				<key>Class Name</key>
 				<string>AMCropImagesAction</string>
 				<key>InputUUID</key>
-				<string>B5B716B4-37E2-4798-BFC6-89BD4A7D3AD5</string>
+				<string>1490AB03-5279-461D-8AC7-D41C9133173B</string>
 				<key>Keywords</key>
 				<array>
 					<string>Image</string>
@@ -416,9 +411,9 @@
 					<string>Scale</string>
 				</array>
 				<key>OutputUUID</key>
-				<string>AD8360E2-3688-4564-A44C-3BAB92AB3EA7</string>
+				<string>4DCA4879-FFE7-4086-A56D-F62847F7EF91</string>
 				<key>UUID</key>
-				<string>8E7348E7-7B3D-46F3-A1AE-49CDD3F7D166</string>
+				<string>133FFB66-5EEA-4B28-8769-392426DF6D35</string>
 				<key>UnlocalizedApplications</key>
 				<array>
 					<string>Preview</string>
@@ -507,12 +502,113 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>398.500000:890.000000</string>
+				<string>381.000000:844.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Crop Images.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
 			<key>isViewVisible</key>
 			<true/>
+		</dict>
+		<dict>
+			<key>action</key>
+			<dict>
+				<key>AMAccepts</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Optional</key>
+					<false/>
+					<key>Types</key>
+					<array>
+						<string>com.apple.applescript.alias-object.image</string>
+					</array>
+				</dict>
+				<key>AMActionVersion</key>
+				<string>7</string>
+				<key>AMParameterProperties</key>
+				<dict>
+					<key>filterIdentifier</key>
+					<dict/>
+					<key>filterParameters</key>
+					<dict/>
+				</dict>
+				<key>AMProvides</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Types</key>
+					<array>
+						<string>com.apple.applescript.alias-object.image</string>
+					</array>
+				</dict>
+				<key>AMRequiredResources</key>
+				<array/>
+				<key>ActionBundlePath</key>
+				<string>/System/Library/Automator/Apply Quartz Composition Filter to Image Files.action</string>
+				<key>ActionName</key>
+				<string>Apply Quartz Composition Filter to Image Files</string>
+				<key>ActionParameters</key>
+				<dict>
+					<key>filterIdentifier</key>
+					<string>/sharpen</string>
+					<key>filterParameters</key>
+					<dict>
+						<key>amount</key>
+						<real>0.20000000000000001</real>
+					</dict>
+				</dict>
+				<key>Application</key>
+				<array/>
+				<key>BundleIdentifier</key>
+				<string>com.apple.QuartzComposer.automatorActions.imageFilter</string>
+				<key>CFBundleVersion</key>
+				<string>7</string>
+				<key>CanShowSelectedItemsWhenRun</key>
+				<false/>
+				<key>CanShowWhenRun</key>
+				<true/>
+				<key>Category</key>
+				<array>
+					<string>AMCategoryPhotos</string>
+				</array>
+				<key>Class Name</key>
+				<string>QuartzComposerImageFilter</string>
+				<key>InputUUID</key>
+				<string>85B8797E-197A-4E79-90A7-04FC091DF3CD</string>
+				<key>Keywords</key>
+				<array>
+					<string>Quartz Composer</string>
+					<string>Image</string>
+				</array>
+				<key>OutputUUID</key>
+				<string>0E7A129B-DDE0-41E2-91D2-4F78F5C5A00D</string>
+				<key>UUID</key>
+				<string>6F4996C4-8931-445C-B269-695AFFB003AD</string>
+				<key>arguments</key>
+				<dict>
+					<key>0</key>
+					<dict>
+						<key>default value</key>
+						<string>/sepia</string>
+						<key>name</key>
+						<string>filterIdentifier</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>0</string>
+					</dict>
+				</dict>
+				<key>isViewVisible</key>
+				<false/>
+				<key>location</key>
+				<string>381.000000:631.000000</string>
+				<key>nibPath</key>
+				<string>/System/Library/Automator/Apply Quartz Composition Filter to Image Files.action/Contents/Resources/English.lproj/main.nib</string>
+			</dict>
+			<key>isViewVisible</key>
+			<false/>
 		</dict>
 		<dict>
 			<key>action</key>
@@ -572,16 +668,16 @@
 				<key>Class Name</key>
 				<string>QuartzComposerImageFilter</string>
 				<key>InputUUID</key>
-				<string>4AACEF4D-60C2-4DD5-A44B-B57706B1485A</string>
+				<string>ACF13DEA-7614-4256-B993-9EB1488268C6</string>
 				<key>Keywords</key>
 				<array>
 					<string>Quartz Composer</string>
 					<string>Image</string>
 				</array>
 				<key>OutputUUID</key>
-				<string>BAC8729D-AE73-4842-B21D-092D9D844D9C</string>
+				<string>9AAEF47B-1945-4615-8CDB-39484DF2902D</string>
 				<key>UUID</key>
-				<string>ED524953-D852-4FA8-82A6-8B49C9A1448A</string>
+				<string>7615079D-5089-4274-B674-FCF0E0BF9ED5</string>
 				<key>arguments</key>
 				<dict>
 					<key>0</key>
@@ -601,7 +697,7 @@
 				<key>isViewVisible</key>
 				<false/>
 				<key>location</key>
-				<string>398.500000:677.000000</string>
+				<string>381.000000:589.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Apply Quartz Composition Filter to Image Files.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
@@ -666,16 +762,16 @@
 				<key>Class Name</key>
 				<string>QuartzComposerImageFilter</string>
 				<key>InputUUID</key>
-				<string>FE68EA1E-1EEF-4EC8-89F5-5AE377AA3C4E</string>
+				<string>683BF5FA-099F-40D9-9DF0-1642C1CEBAA5</string>
 				<key>Keywords</key>
 				<array>
 					<string>Quartz Composer</string>
 					<string>Image</string>
 				</array>
 				<key>OutputUUID</key>
-				<string>274A31A0-32E9-4F92-8C13-24FC7FFF1881</string>
+				<string>AF1F00B4-3815-415F-A93A-C0F7152926D1</string>
 				<key>UUID</key>
-				<string>C9CCCDDC-0387-43FA-B798-59F4D1F2E8F0</string>
+				<string>9AF7EFDC-B0D1-4DFD-886F-B50F0A31CEBC</string>
 				<key>arguments</key>
 				<dict>
 					<key>0</key>
@@ -695,7 +791,7 @@
 				<key>isViewVisible</key>
 				<false/>
 				<key>location</key>
-				<string>398.500000:635.000000</string>
+				<string>381.000000:547.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Apply Quartz Composition Filter to Image Files.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
@@ -751,18 +847,18 @@
 							<key>alpha</key>
 							<real>1</real>
 							<key>blue</key>
-							<real>0.80000001192092896</real>
+							<real>0.90196079015731812</real>
 							<key>green</key>
-							<real>0.80000001192092896</real>
+							<real>0.90196079015731812</real>
 							<key>red</key>
-							<real>0.80000001192092896</real>
+							<real>0.90196079015731812</real>
 						</dict>
 						<key>mode</key>
 						<integer>3</integer>
 						<key>targetHeight</key>
-						<integer>1142</integer>
+						<integer>751</integer>
 						<key>targetWidth</key>
-						<integer>784</integer>
+						<integer>560</integer>
 					</dict>
 				</dict>
 				<key>Application</key>
@@ -782,16 +878,16 @@
 				<key>Class Name</key>
 				<string>QuartzComposerImageFilter</string>
 				<key>InputUUID</key>
-				<string>0086495A-FA1C-470C-95FE-F682068D9D3D</string>
+				<string>D8AACAEF-3275-4D8E-9837-62829EECF788</string>
 				<key>Keywords</key>
 				<array>
 					<string>Quartz Composer</string>
 					<string>Image</string>
 				</array>
 				<key>OutputUUID</key>
-				<string>614F8C72-454B-46B9-AFC1-C5D8D32BA765</string>
+				<string>87224A0E-6453-4D4A-AEA8-A7682140223C</string>
 				<key>UUID</key>
-				<string>0AC8C541-8343-4ABE-A11B-69EC001CE037</string>
+				<string>D1971DEA-2C2C-4EDE-AB7A-028F7DBF3C74</string>
 				<key>arguments</key>
 				<dict>
 					<key>0</key>
@@ -809,14 +905,14 @@
 					</dict>
 				</dict>
 				<key>isViewVisible</key>
-				<false/>
+				<true/>
 				<key>location</key>
-				<string>398.500000:593.000000</string>
+				<string>381.000000:505.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Apply Quartz Composition Filter to Image Files.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
 			<key>isViewVisible</key>
-			<false/>
+			<true/>
 		</dict>
 		<dict>
 			<key>action</key>
@@ -915,7 +1011,7 @@
 				<key>isViewVisible</key>
 				<false/>
 				<key>location</key>
-				<string>398.500000:551.000000</string>
+				<string>381.000000:194.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/New PDF from Images.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
@@ -925,47 +1021,54 @@
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>2647D247-BA5A-4A9C-AAD7-2DC10A852E8C</key>
+		<key>0635AC3A-77FF-48CF-BBD9-A17FDF73E7B0</key>
+		<dict>
+			<key>from</key>
+			<string>9AF7EFDC-B0D1-4DFD-886F-B50F0A31CEBC - 9AF7EFDC-B0D1-4DFD-886F-B50F0A31CEBC</string>
+			<key>to</key>
+			<string>D1971DEA-2C2C-4EDE-AB7A-028F7DBF3C74 - D1971DEA-2C2C-4EDE-AB7A-028F7DBF3C74</string>
+		</dict>
+		<key>5C1F7F5F-F685-4F96-9586-BA7382FF5655</key>
+		<dict>
+			<key>from</key>
+			<string>D1971DEA-2C2C-4EDE-AB7A-028F7DBF3C74 - D1971DEA-2C2C-4EDE-AB7A-028F7DBF3C74</string>
+			<key>to</key>
+			<string>E70E04B1-2FFC-4072-9562-0060E8CAE52F - E70E04B1-2FFC-4072-9562-0060E8CAE52F</string>
+		</dict>
+		<key>90DD9524-B65C-406A-AEA1-C3AE7F2A18B1</key>
+		<dict>
+			<key>from</key>
+			<string>6F4996C4-8931-445C-B269-695AFFB003AD - 6F4996C4-8931-445C-B269-695AFFB003AD</string>
+			<key>to</key>
+			<string>7615079D-5089-4274-B674-FCF0E0BF9ED5 - 7615079D-5089-4274-B674-FCF0E0BF9ED5</string>
+		</dict>
+		<key>DC2B7DE1-F64D-44A7-A041-BB3371E21D73</key>
+		<dict>
+			<key>from</key>
+			<string>133FFB66-5EEA-4B28-8769-392426DF6D35 - 133FFB66-5EEA-4B28-8769-392426DF6D35</string>
+			<key>to</key>
+			<string>6F4996C4-8931-445C-B269-695AFFB003AD - 6F4996C4-8931-445C-B269-695AFFB003AD</string>
+		</dict>
+		<key>F11F1E28-304C-44FD-AFF2-508935EF12CC</key>
+		<dict>
+			<key>from</key>
+			<string>B775F07B-282F-4B11-998A-7351DADB680C - B775F07B-282F-4B11-998A-7351DADB680C</string>
+			<key>to</key>
+			<string>133FFB66-5EEA-4B28-8769-392426DF6D35 - 133FFB66-5EEA-4B28-8769-392426DF6D35</string>
+		</dict>
+		<key>FCBB9FF9-53A9-464E-8034-A5B3BA53A9DC</key>
+		<dict>
+			<key>from</key>
+			<string>7615079D-5089-4274-B674-FCF0E0BF9ED5 - 7615079D-5089-4274-B674-FCF0E0BF9ED5</string>
+			<key>to</key>
+			<string>9AF7EFDC-B0D1-4DFD-886F-B50F0A31CEBC - 9AF7EFDC-B0D1-4DFD-886F-B50F0A31CEBC</string>
+		</dict>
+		<key>FF15145D-6233-4FF5-A9A9-B5F131FFC925</key>
 		<dict>
 			<key>from</key>
 			<string>CD7BAE6B-A41D-43B0-88C2-00704F4F2194 - CD7BAE6B-A41D-43B0-88C2-00704F4F2194</string>
 			<key>to</key>
 			<string>B775F07B-282F-4B11-998A-7351DADB680C - B775F07B-282F-4B11-998A-7351DADB680C</string>
-		</dict>
-		<key>298E77DF-0CAA-4B5B-A652-92422F7AB02B</key>
-		<dict>
-			<key>from</key>
-			<string>C9CCCDDC-0387-43FA-B798-59F4D1F2E8F0 - C9CCCDDC-0387-43FA-B798-59F4D1F2E8F0</string>
-			<key>to</key>
-			<string>0AC8C541-8343-4ABE-A11B-69EC001CE037 - 0AC8C541-8343-4ABE-A11B-69EC001CE037</string>
-		</dict>
-		<key>470FAE44-96A6-43A5-98CB-7CC60D9063A5</key>
-		<dict>
-			<key>from</key>
-			<string>8E7348E7-7B3D-46F3-A1AE-49CDD3F7D166 - 8E7348E7-7B3D-46F3-A1AE-49CDD3F7D166</string>
-			<key>to</key>
-			<string>ED524953-D852-4FA8-82A6-8B49C9A1448A - ED524953-D852-4FA8-82A6-8B49C9A1448A</string>
-		</dict>
-		<key>655C75DF-3A00-488E-B16D-E67569E04479</key>
-		<dict>
-			<key>from</key>
-			<string>ED524953-D852-4FA8-82A6-8B49C9A1448A - ED524953-D852-4FA8-82A6-8B49C9A1448A</string>
-			<key>to</key>
-			<string>C9CCCDDC-0387-43FA-B798-59F4D1F2E8F0 - C9CCCDDC-0387-43FA-B798-59F4D1F2E8F0</string>
-		</dict>
-		<key>75AC1608-0F39-4F76-B242-D271B1640038</key>
-		<dict>
-			<key>from</key>
-			<string>0AC8C541-8343-4ABE-A11B-69EC001CE037 - 0AC8C541-8343-4ABE-A11B-69EC001CE037</string>
-			<key>to</key>
-			<string>E70E04B1-2FFC-4072-9562-0060E8CAE52F - E70E04B1-2FFC-4072-9562-0060E8CAE52F</string>
-		</dict>
-		<key>A1F1169A-08EF-4FE5-AC3E-0635FBBFFD4A</key>
-		<dict>
-			<key>from</key>
-			<string>B775F07B-282F-4B11-998A-7351DADB680C - B775F07B-282F-4B11-998A-7351DADB680C</string>
-			<key>to</key>
-			<string>8E7348E7-7B3D-46F3-A1AE-49CDD3F7D166 - 8E7348E7-7B3D-46F3-A1AE-49CDD3F7D166</string>
 		</dict>
 	</dict>
 	<key>state</key>
@@ -980,8 +1083,8 @@
 				<real>0.0</real>
 				<key>subviewState</key>
 				<array>
-					<string>0.000000, 0.000000, 381.000000, 698.000000, NO</string>
-					<string>0.000000, 699.000000, 381.000000, 239.000000, NO</string>
+					<string>0.000000, 0.000000, 381.000000, 652.000000, NO</string>
+					<string>0.000000, 653.000000, 381.000000, 239.000000, NO</string>
 				</array>
 			</dict>
 			<key>actionsMinorSplitViewState</key>
@@ -990,8 +1093,8 @@
 				<real>0.0</real>
 				<key>subviewState</key>
 				<array>
-					<string>0.000000, 0.000000, 163.000000, 698.000000, NO</string>
-					<string>164.000000, 0.000000, 217.000000, 698.000000, NO</string>
+					<string>0.000000, 0.000000, 163.000000, 652.000000, NO</string>
+					<string>164.000000, 0.000000, 217.000000, 652.000000, NO</string>
 				</array>
 			</dict>
 			<key>variablesMajorSplitViewState</key>
@@ -1021,8 +1124,8 @@
 			<real>381</real>
 			<key>subviewState</key>
 			<array>
-				<string>0.000000, 0.000000, 0.000000, 983.000000, YES</string>
-				<string>0.000000, 0.000000, 797.000000, 983.000000, NO</string>
+				<string>0.000000, 0.000000, 0.000000, 937.000000, YES</string>
+				<string>0.000000, 0.000000, 762.000000, 937.000000, NO</string>
 			</array>
 		</dict>
 		<key>minorSplitViewState</key>
@@ -1031,14 +1134,14 @@
 			<real>150</real>
 			<key>subviewState</key>
 			<array>
-				<string>0.000000, 0.000000, 797.000000, 964.000000, NO</string>
+				<string>0.000000, 0.000000, 762.000000, 918.000000, NO</string>
 				<string>0.000000, 689.000000, 819.000000, 140.000000, YES</string>
 			</array>
 		</dict>
 		<key>windowFrame</key>
-		<string>{{-868, 140}, {796, 1060}}</string>
+		<string>{{-1889, 107}, {761, 1014}}</string>
 		<key>workflowViewScrollPosition</key>
-		<string>{{0, 0}, {797, 964}}</string>
+		<string>{{0, 0}, {762, 918}}</string>
 	</dict>
 	<key>workflowMetaData</key>
 	<dict>
